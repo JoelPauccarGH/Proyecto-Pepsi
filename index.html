@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/pepsi_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pepsi Website</title>
+</head>
+<body>
+    <section class="section__container">
+        <header class="header">
+            <a href="#"><img src="./img/logo.png" class="header__logo" alt=""></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="header__ul navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">whats New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content__container">
+            <div class="content__textbox">
+                <h2>Eso es <br><span>lo que me gusta</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo nulla maxime blanditiis eius culpa dolore optio facilis sint in! Cumque ex incidunt, quidem tenetur libero corporis ratione possimus hic.
+                Voluptates molestias fugit harum recusandae, voluptatem reiciendis qui impedit excepturi! Provident laudantium dolorem, in facilis nesciunt dicta atque vitae. Suscipit quisquam quaerat dignissimos cumque explicabo accusamus sit velit harum cum!</p>
+                <a href="#">Ver todos los productos</a>
+            </div>
+            <div class="content__imgbox">
+                <img src="./img/pepsi001.png" class="imgbox-pepsi" >
+            </div>
+        </div>
+        <ul class="content__thumb">
+            <li><img src="./img/pepsi001.png" onclick="imgSlider('./img/pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="./img/pepsi002.png" onclick="imgSlider('./img/pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="./img/pepsi003.png" onclick="imgSlider('./img/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="content__redes">
+            <li><a href="#"><img src="./img/facebook.png" alt=""></a><li>
+            <li><a href="#"><img src="./img/instagram.png" alt=""></a><li>
+            <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
